@@ -2,7 +2,7 @@ Package: testpkg
 Type: Package
 Title: Random Assortment Of Convenience Functions By ankit
 Version: 0.32
-Maintainer: Your Name <youremail@example.com>
+Maintainer: ankit sharma <ankot@gmail.com>
 Author: person(given = "ankit", family = "sharma",
            role = c("aut", "cre"),
            email = "data@ankitsharma.com")

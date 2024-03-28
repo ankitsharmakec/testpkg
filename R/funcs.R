@@ -77,6 +77,8 @@ library(dplyr)
 #' }
 #' @rdname summary_stats
 #' @export
+#' @import dplyr
+#' @importFrom stats median
 
 summary_stats <- function(data, column) {
   stats <- data %>%
@@ -105,6 +107,7 @@ library(stringr)
 #' }
 #' @rdname count_words
 #' @export
+#' @import stringr
 
 count_words <- function(text) {
   words <- str_split(text, "\\s+")
