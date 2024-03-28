@@ -9,3 +9,5 @@ Description: So I'm fairly lazy and there's many small things that should be eas
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/ankitsharmakec/testpkg
+BugReports: https://github.com/ankitsharmakec/testpkg/issues
