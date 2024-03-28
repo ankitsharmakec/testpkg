@@ -2,7 +2,8 @@ Package: testpkg
 Type: Package
 Title: Random Assortment Of Convenience Functions By ankit
 Version: 0.32
-Authors@R: person(given = "ankit", family = "sharma",
+Maintainer: Your Name <youremail@example.com>
+Author: person(given = "ankit", family = "sharma",
            role = c("aut", "cre"),
            email = "data@ankitsharma.com")
 Description: So I'm fairly lazy and there's many small things that should be easier. This package helps w/ that.
@@ -11,3 +12,6 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ankitsharmakec/testpkg
 BugReports: https://github.com/ankitsharmakec/testpkg/issues
+RoxygenNote: 7.2.3
+Imports:dplyr,stringr
+
